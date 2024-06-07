@@ -1,0 +1,75 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    z-index: 999;
+    margin-left: 2rem;
+}
+
+input {
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+    }
+
+    .search-input {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        width: 200px;
+    }
+
+    .profile-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-icons {
+        font-size: 24px;
+        margin: 0 10px;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    .nav-icons span {
+        background-color: #f00;
+        border-radius: 50%;
+        padding: 2px 6px;
+        font-size: 12px;
+        position: relative;
+        top: -10px;
+        right: 10px;
+    }
+
+    padding: 12px 20px;
+    border: none;
+    background: #f7f6f6;
+    outline: none;
+    margin-right: 20px;
+    border-radius: 5px;
+    position: relative;
+    width: 14rem;
+}
+
+.nav-icons {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 2rem;
+}
+
+.nav-icons-heart {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 2rem;
+}
+
+.nav-icons-heart:hover {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: red;
+}
